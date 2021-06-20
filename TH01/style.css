@@ -1,0 +1,391 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    overflow: hidden;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*    CSS reset
+    2021. 05. 20*/
+
+
+
+
+body {
+    font-family: 'Noto Serif KR', serif;
+    letter-spacing: 1px;
+    line-height: 1.75;
+    word-break: keep-all;
+
+    background-color: darkgray;
+}
+
+h1 {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 500;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 300px;
+    margin: 36px;
+}
+
+h3 {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 100px;
+    margin: 36px;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+
+}
+
+a {
+     color: orange;
+}
+
+/*      text setting 
+        2021. 05. 29*/
+
+div {}
+
+div.left {
+    background-color: white;
+    float: left;
+
+    width: 40%;
+    height: 100%;
+    padding: 16px;
+
+    position: fixed;
+    overflow: scroll;
+
+    box-sizing: border-box;
+}
+
+div.right {
+    float: right;
+
+    width: 60%;
+    height: 100%;
+    padding: 16px;
+    text-align: center;
+    display: inline-block;
+
+    box-sizing: border-box;
+}
+
+a.button {
+    height: 30px;
+    color: 0000ff;
+    background: rgba(0, 79, 255, 0.9);
+
+    border: none;
+    border-radius: 30px;
+
+    box-shadow: 2px 2px 2px gray;
+
+    font-size: 20px;
+    text-decoration-line: none;
+    line-height: 2.7;
+
+    transition: 0.2s;
+    transform: translate(-50%, -50%);
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+a.button:hover{
+
+/*    box-shadow: 0px 0px 5px 20px orange;
+
+    transition: 0.5s;
+    transform: translate(-50%, -50%);
+*/
+    box-shadow: 0 0 5px white,
+                0 0 25px white,
+                0 0 50px white,
+                0 0 200px white;
+}
+
+
+
+.footer {
+    display: block;
+    position: fixed;
+
+    background-color: white;
+    bottom: 30px;
+    right: 18%;
+
+    width: 400px;
+    height: 36px;
+    border-radius: 5vw;
+
+    text-align: center;
+    transition: 0.3s;
+
+    padding-top: 8px;
+}
+
+
+.footer:hover {
+filter: opacity(50%);
+}
+
+.box {
+    position: absolute;
+    display: block;
+    width: 50%;
+    top: 50px;
+    background-color: gray;
+}
+
+.das {
+    display: inline;
+    width: 30px;
+    height: 30px;
+
+    top: 30px;
+    bottom: 30px;
+
+
+    background-color: blue;
+
+/*<!-- Modal -->*/
+
+}
+
+#SizeChart {
+
+    text-align: center;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 300;
+    font-size: 20px;
+
+    color: blue;
+
+    display: block;
+
+    padding-top: -80px;
+
+}
+
+#SizeChartModalContent {
+    position: relative;
+    height: 1024px;
+}
+
+/* The Modal (background) */
+.ebcf_modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.ebcf_modal-content {
+    background-color: rgba(50, 50, 50, 0.5);
+    margin: auto;
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 80%;
+}
+
+/* The Close Button */
+.ebcf_close {}
+
+.ebcf_close:hover,
+.ebcf_close:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*<!-- Modal -->*/
+
+.box {
+  background-color: #000;
+  position: fixed;
+  border-radius: 50%;
+}
+
+  
+ .item {
+    list-style: none;
+    display: block;
+    visibility: hidden;
+    position: absolute;
+ }
+
+
+@media all and (min-height: 600px),
+    {}
+
+@media all and (min-width: 900px),
+    {}
+
+@media all and (min-width: 1200px),
+    {}
+
+@media print {}
