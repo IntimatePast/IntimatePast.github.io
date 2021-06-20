@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>temporary house</title>
+    <meta name="start" content="TemporaryHouse">
+    <meta name="keywords" content="집, 나다운집, temporaryhouse, 우리집"><!-- 구글서치엔진 검색어 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="left">
+        <h1>Temporary House</h1>
+        <h1 style="font-size: 20px; padding-bottom: 150px;">
+            <집 만들기 툴>
+        </h1>
+        <h3>이 프로젝트는 세종시에 위치한 대상지에 내가 살 집을 짓는 일로부터 시작합니다. 첫번째로 집 만들기 툴을 통해 태어나서 지금까지 살았던 혹은 살고 있는 집을 간접적으로 소개합니다. 이것은 재료를
+            수집하는 행위이며 동시에 이 프로젝트를 관객에게 경험적으로 안내할 수 있는 대문입니다. 내가 나를 만듭니다. 경험이 과거이며 곧 과거가 경험입니다. 사람은 과거로부터 배우죠 그래서 저는 과거
+            이야기를 꺼냅니다. 자신을 소개할 때 어떤 일을 하고 어디에 사는지 어떤 학교에서 공부를 했는지에 대해 이야기하는 것처럼요. 건축이라는 문법으로 이야기를 합니다. Temporary House를
+            짓기 위한 계획을 소개합니다.</h3>
+        <h2></h2>
+
+        <!-- Modal -->
+
+        <a href="#" id="SizeChart">열기</a>
+        <div id="SizeChartModal" class="ebcf_modal">
+            <div id="SizeChartModalContent" class="ebcf_modal-content">
+                <span class="ebcf_close"></span>
+                <ul>
+                    <li id="병원" class="item">
+                        <img src="./drawing/1.png"> <!-- 이걸 png 이미지로 바꿔주면 됌 -->
+                    </li>
+                    <li id="동네" class="item">
+                        <img src="./drawing/2.png">
+                    </li>
+                    <li id="2층집" class="item">
+                        <img src="./drawing/3.png">
+                    </li>
+                    <li id="계단" class="item">
+                        <img src="./drawing/4.png">
+                    </li>
+                    <li id="에메랄드장판" class="item">
+                        <img src="./drawing/5.png">
+                    </li>
+                    <li id="5층아파트" class="item">
+                        <img src="./drawing/6.png">
+                    </li>
+                    <li id="집앞한강" class="item">
+                        <img src="./drawing/7.png">
+                    </li>
+                    <li id="지하귀신" class="item">
+                        <img src="./drawing/8.png">
+                    </li>
+                    <li id="다락방" class="item">
+                        <img src="./drawing/9.png">
+                    </li>
+                    <li id="화장실문턱" class="item">
+                        <img src="./drawing/10.png">
+                    </li>
+                    <li id="집앞주차장" class="item">
+                        <img src="./drawing/11.png">
+                    </li>
+                    <li id="베란다은행나무" class="item">
+                        <img src="./drawing/12.png">
+                    </li>
+                    <li id="1층전시장사무실" class="item">
+                        <img src="./drawing/13.png">
+                    </li>
+                    <li id="1층집" class="item">
+                        <img src="./drawing/14.png">
+                    </li>
+                    <li id="베란다정원" class="item">
+                        <img src="./drawing/15.png">
+                    </li>
+                    <li id="현관문앞달빛" class="item">
+                        <img src="./drawing/16.png">
+                    </li>
+                    <li id="내방야외테이블" class="item">
+                        <img src="./drawing/17.png">
+                    </li>
+                    <li id="거실티비장거울" class="item">
+                        <img src="./drawing/18.png">
+                    </li>
+                    <li id="집앞놀이터" class="item">
+                        <img src="./drawing/19.png">
+                    </li>
+                    <li id="카페트" class="item">
+                        <img src="./drawing/20.png">
+                    </li>
+                    <li id="흰색페인트" class="item">
+                        <img src="./drawing/21.png">
+                    </li>
+                    <li id="베란다" class="item">
+                        <img src="./drawing/22.png">
+                    </li>
+                    <li id="3개의계단" class="item">
+                        <img src="./drawing/23.png">
+                    </li>
+                    <li id="주방문" class="item">
+                        <img src="./drawing/24.png">
+                    </li>
+                    <li id="베란다창문거울" class="item">
+                        <img src="./drawing/25.png">
+                    </li>
+                    <li id="작은복도" class="item">
+                        <img src="./drawing/26.png">
+                    </li>
+                    <li id="꽉찬침대" class="item">
+                        <img src="./drawing/27.png">
+                    </li>
+                    <li id="IKEA책상2개하나의책장" class="item">
+                        <img src="./drawing/28.png">
+                    </li>
+                    <li id="쓰레기미끄럼틀" class="item">
+                        <img src="./drawing/29.png">
+                    </li>
+                    <li id="2층집" class="item">
+                        <img src="./drawing/30.png">
+                    </li>
+                    <li id="거실피아노" class="item">
+                        <img src="./drawing/31.png">
+                    </li>
+                    <li id="뒷뜰바베큐" class="item">
+                        <img src="./drawing/32.png">
+                    </li>
+                    <li id="작은방창문" class="item">
+                        <img src="./drawing/33.png">
+                    </li>
+                    <li id="화장실카페트" class="item">
+                        <img src="./drawing/34.png">
+                    </li>
+                    <li id="집앞담장과줄넘기" class="item">
+                        <img src="./drawing/35.png">
+                    </li>
+                    <li id="블루베리파이와미트볼" class="item">
+                        <img src="./drawing/36.png">
+                    </li>
+                    <li id="엘리베이터" class="item">
+                        <img src="./drawing/37.png">
+                    </li>
+                    <li id="9층기숙사" class="item">
+                        <img src="./drawing/38.png">
+                    </li>
+                    <li id="3인방" class="item">
+                        <img src="./drawing/39.png">
+                    </li>
+                    <li id="2층침대" class="item">
+                        <img src="./drawing/40.png">
+                    </li>
+                    <li id="기숙사책상" class="item">
+                        <img src="./drawing/41.png">
+                    </li>
+                    <li id="좁은복도" class="item">
+                        <img src="./drawing/42.png">
+                    </li>
+                    <li id="1층카페테리아와쌓인식빵그리고생크림" class="item">
+                        <img src="./drawing/43.png">
+                    </li>
+                    <li id="외출금지" class="item">
+                        <img src="./drawing/44.png">
+                    </li>
+                    <li id="방에큰창" class="item">
+                        <img src="./drawing/45.png">
+                    </li>
+                    <li id="전자렌지방" class="item">
+                        <img src="./drawing/46.png">
+                    </li>
+                    <li id="옷행거에둘러싸인방" class="item">
+                        <img src="./drawing/47.png">
+                    </li>
+                    <li id="벌레" class="item">
+                        <img src="./drawing/48.png">
+                    </li>
+                    <li id="빛이안들어오는집" class="item">
+                        <img src="./drawing/49.png">
+                    </li>
+                    <li id="곰팡이" class="item">
+                        <img src="./drawing/50.png">
+                    </li>
+                    <li id="작은침대하나" class="item">
+                        <img src="./drawing/51.png">
+                    </li>
+                    <li id="알파벳나무서랍" class="item">
+                        <img src="./drawing/52.png">
+                    </li>
+                    <li id="작은냉장고" class="item">
+                        <img src="./drawing/53.png">
+                    </li>
+                    <li id="작은창문" class="item">
+                        <img src="./drawing/54.png">
+                    </li>
+                    <li id="옥상텃밭" class="item">
+                        <img src="./drawing/55.png">
+                    </li>
+                    <li id="개미" class="item">
+                        <img src="./drawing/56.png">
+                    </li>
+                    <li id="화장실온돌" class="item">
+                        <img src="./drawing/57.png">
+                    </li>
+                    <li id="주방방" class="item">
+                        <img src="./drawing/58.png">
+                    </li>
+                    <li id="5층집" class="item">
+                        <img src="./drawing/59.png">
+                    </li>
+                    <li id="1층집" class="item">
+                        <img src="./drawing/60.png">
+                    </li>
+                    <li id="주택" class="item">
+                        <img src="./drawing/61.png">
+                    </li>
+                    <li id="시골" class="item">
+                        <img src="./drawing/62.png">
+                    </li>
+                    <li id="강아지" class="item">
+                        <img src="./drawing/63.png">
+                    </li>
+                    <li id="마당" class="item">
+                        <img src="./drawing/64.png">
+                    </li>
+                    <li id="높은천정" class="item">
+                        <img src="./drawing/65.png">
+                    </li>
+                    <li id="뒷마당식탁" class="item">
+                        <img src="./drawing/66.png">
+                    </li>
+                    <li id="나방" class="item">
+                        <img src="./drawing/67.png">
+                    </li>
+                    <li id="빨간대문" class="item">
+                        <img src="./drawing/68.png">
+                    </li>
+                    <li id="어수선한마당" class="item">
+                        <img src="./drawing/69.png">
+                    </li>
+                    <li id="ㄱ자1층집" class="item">
+                        <img src="./drawing/70.png">
+                    </li>
+                    <li id="집뒤로난창문과바위" class="item">
+                        <img src="./drawing/71.png">
+                    </li>
+                    <li id="야외같은화장실" class="item">
+                        <img src="./drawing/72.png">
+                    </li>
+                    <li id="창고" class="item">
+                        <img src="./drawing/73.png">
+                    </li>
+                    <li id="뒷산" class="item">
+                        <img src="./drawing/74.png">
+                    </li>
+                    <li id="수돗가" class="item">
+                        <img src="./drawing/75.png">
+                    </li>
+                    <li id="3층집4층옥상" class="item">
+                        <img src="./drawing/76.png">
+                    </li>
+                    <li id="1층상가" class="item">
+                        <img src="./drawing/77.png">
+                    </li>
+                    <li id="흰색벽지흰색천정" class="item">
+                        <img src="./drawing/78.png">
+                    </li>
+                    <li id="큰창" class="item">
+                        <img src="./drawing/79.png">
+                    </li>
+                    <li id="베란다2" class="item">
+                        <img src="./drawing/80.png">
+                    </li>
+                    <li id="옥상작업실" class="item">
+                        <img src="./drawing/81.png">
+                    </li>
+                    <li id="옥상초록색방수페인트" class="item">
+                        <img src="./drawing/82.png">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Modal -->
+
+        <p class="fadeout"></p>
+
+    </div>
+
+    <div class="right">
+        <ul id="myList">
+            <li><a class="button blue-button" href="#" id="병원">병원</a></li>
+            <li><a class="button blue-button" href="#" id="동네">동네</a></li>
+            <li><a class="button blue-button" href="#" id="2층집">2층 집</a></li>
+            <li><a class="button blue-button" href="#" id="계단">계단</a></li>
+            <li><a class="button blue-button" href="#" id="에메랄드장판">에메랄드장판</a></li>
+            <li><a class="button blue-button" href="#" id="5층아파트">5층 아파트</a></li>
+            <li><a class="button blue-button" href="#" id="집앞한강">집 앞 한강</a></li>
+            <li><a class="button blue-button" href="#" id="지하귀신">지하귀신</a></li>
+            <li><a class="button blue-button" href="#" id="다락방">다락방</a></li>
+            <li><a class="button blue-button" href="#" id="화장실문턱">화장실 문턱</a></li>
+            <li><a class="button blue-button" href="#" id="집앞주차장">집 앞 주차장</a></li>
+            <li><a class="button blue-button" href="#" id="베란다은행나무">베란다 은행나무</a></li>
+            <li><a class="button blue-button" href="#" id="1층전시장사무실">1층 전시장 사무실</a></li>
+            <li><a class="button blue-button" href="#" id="1층집">1층 집</a></li>
+            <li><a class="button blue-button" href="#" id="베란다정원">베란다 정원</a></li>
+            <li><a class="button blue-button" href="#" id="현관문앞달빛">현관문 앞 달빛</a></li>
+            <li><a class="button blue-button" href="#" id="내방야외테이블">내 방 야외 테이블</a></li>
+            <li><a class="button blue-button" href="#" id="거실티비장거울">거실 티비장 거울</a></li>
+            <li><a class="button blue-button" href="#" id="집앞놀이터">집 앞 놀이터</a></li>
+            <li><a class="button blue-button" href="#" id="카페트">카페트</a></li>
+            <li><a class="button blue-button" href="#" id="흰색페인트">흰색 페인트</a></li>
+            <li><a class="button blue-button" href="#" id="베란다1">베란다1</a></li>
+            <li><a class="button blue-button" href="#" id="3개의계단">3개의 계단</a></li>
+            <li><a class="button blue-button" href="#" id="주방문">주방 문</a></li>
+            <li><a class="button blue-button" href="#" id="베란다창문거울">베란다 창문 거울</a></li>
+            <li><a class="button blue-button" href="#" id="작은복도">작은 복도</a></li>
+            <li><a class="button blue-button" href="#" id="꽉찬침대">꽉 찬 침대</a></li>
+            <li><a class="button blue-button" href="#" id="IKEA책상2개하나의책장">IKEA 책상 2개 하나의 책장</a></li>
+            <li><a class="button blue-button" href="#" id="쓰레기미끄럼틀">쓰레기 미끄럼틀</a></li>
+            <li><a class="button blue-button" href="#" id="거실피아노">거실 피아노</a></li>
+            <li><a class="button blue-button" href="#" id="뒷뜰바베큐">뒷뜰 바베큐</a></li>
+            <li><a class="button blue-button" href="#" id="작은방창문">작은 방 창문</a></li>
+            <li><a class="button blue-button" href="#" id="화장실카페트">화장실 카페트</a></li>
+            <li><a class="button blue-button" href="#" id="집앞담장과줄넘기">집 앞 담장과 줄넘기</a></li>
+            <li><a class="button blue-button" href="#" id="블루베리파이와미트볼">블루베리파이와 미트볼</a></li>
+            <li><a class="button blue-button" href="#" id="엘리베이터">엘리베이터</a></li>
+            <li><a class="button blue-button" href="#" id="9층기숙사">9층 기숙사</a></li>
+            <li><a class="button blue-button" href="#" id="3인실">3인실</a></li>
+            <li><a class="button blue-button" href="#" id="2층침대">2층 침대</a></li>
+            <li><a class="button blue-button" href="#" id="기숙사책상">기숙사 책상</a></li>
+            <li><a class="button blue-button" href="#" id="좁은복도">좁은 복도</a></li>
+            <li><a class="button blue-button" href="#" id="1층카페테리아와쌓인식빵그리고생크림">1층 카페테리아와 쌓인 식빵 그리고 생크림</a></li>
+            <li><a class="button blue-button" href="#" id="외출금지">외출 금지</a></li>
+            <li><a class="button blue-button" href="#" id="방에큰창">방에 큰 창</a></li>
+            <li><a class="button blue-button" href="#" id="전자렌지방">전자렌지 방</a></li>
+            <li><a class="button blue-button" href="#" id="옷행거에둘러싸인방">옷 헹거에 둘러싸인 방</a></li>
+            <li><a class="button blue-button" href="#" id="벌레">벌레</a></li>
+            <li><a class="button blue-button" href="#" id="빛이안들어오는집">빛이 안들어오는 집</a></li>
+            <li><a class="button blue-button" href="#" id="곰팡이">곰팡이</a></li>
+            <li><a class="button blue-button" href="#" id="작은침대하나">작은 침대 하나</a></li>
+            <li><a class="button blue-button" href="#" id="알파벳나무서랍">알파벳 나무 서랍</a></li>
+            <li><a class="button blue-button" href="#" id="작은냉장고">작은 냉장고</a></li>
+            <li><a class="button blue-button" href="#" id="작은창문">작은 창문</a></li>
+            <li><a class="button blue-button" href="#" id="옥상텃밭">옥상 텃밭</a></li>
+            <li><a class="button blue-button" href="#" id="개미">개미</a></li>
+            <li><a class="button blue-button" href="#" id="화장실온돌">화장실 온돌</a></li>
+            <li><a class="button blue-button" href="#" id="주방방">주방 방</a></li>
+            <li><a class="button blue-button" href="#" id="5층집">5층 집</a></li>
+            <li><a class="button blue-button" href="#" id="1층집">1층 집</a></li>
+            <li><a class="button blue-button" href="#" id="주택">주택</a></li>
+            <li><a class="button blue-button" href="#" id="시골">시골</a></li>
+            <li><a class="button blue-button" href="#" id="강아지">강아지</a></li>
+            <li><a class="button blue-button" href="#" id="마당">마당</a></li>
+            <li><a class="button blue-button" href="#" id="높은천정">높은 천정</a></li>
+            <li><a class="button blue-button" href="#" id="뒷마당식탁">뒷마당 식탁</a></li>
+            <li><a class="button blue-button" href="#" id="나방">나방</a></li>
+            <li><a class="button blue-button" href="#" id="빨간대문">빨간 대문</a></li>
+            <li><a class="button blue-button" href="#" id="어수선한마당">어수선한 마당</a></li>
+            <li><a class="button blue-button" href="#" id="ㄱ자1층집">ㄱ자 1층 집</a></li>
+            <li><a class="button blue-button" href="#" id="집뒤로난창문과바위">집 뒤로난 창문과 바위</a></li>
+            <li><a class="button blue-button" href="#" id="야외같은화장실">야외같은 화장실</a></li>
+            <li><a class="button blue-button" href="#" id="창고">창고</a></li>
+            <li><a class="button blue-button" href="#" id="뒷산">뒷 산</a></li>
+            <li><a class="button blue-button" href="#" id="수돗가">수돗가</a></li>
+            <li><a class="button blue-button" href="#" id="3층집4층옥상">3층 집 4층 옥상</a></li>
+            <li><a class="button blue-button" href="#" id="1층상가">1층 상가</a></li>
+            <li><a class="button blue-button" href="#" id="흰색벽지흰색천정">흰색 벽지 흰색 천정</a></li>
+            <li><a class="button blue-button" href="#" id="큰창">큰 창</a></li>
+            <li><a class="button blue-button" href="#" id="베란다2">베란다2</a></li>
+            <li><a class="button blue-button" href="#" id="옥상작업실">옥상 작업실</a></li>
+            <li><a class="button blue-button" href="#" id="옥상초록색방수페인트">옥상 초록색 방수페인트</a></li>
+        </ul>
+    </div>
+
+    <p class="footer">You glide across the space, and diagonal past</p>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="modal.js"></script>
+</body>
+
+</html>
