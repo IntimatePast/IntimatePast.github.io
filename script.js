@@ -69,7 +69,7 @@ $("#동네").click(function () {
     $("h3").remove();
     $("h2").append(" 동네");
 });
-$("#2층집").click(function () {
+$("#2층 집").click(function () {
     $("h3").remove();
     $("h2").append(" 2층 집");
 });
