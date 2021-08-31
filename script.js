@@ -71,7 +71,7 @@ $("#동네").click(function () {
 });
 $("#2층집").click(function () {
     $("h3").remove();
-    $("h2").append(" 2층 집");
+    $("h2").append(" 2층집");
 });
 $("#계단").click(function () {
     $("h3").remove();
@@ -83,7 +83,7 @@ $("#에메랄드장판").click(function () {
 });
 $("#5층아파트").click(function () {
     $("h3").remove();
-    $("h2").append(" 5층 아파트");
+    $("h2").append(" 5층아파트");
 });
 $("#집앞한강").click(function () {
     $("h3").remove();
@@ -111,7 +111,7 @@ $("#베란다은행나무").click(function () {
 });
 $("#1층전시장사무실").click(function () {
     $("h3").remove();
-    $("h2").append(" 1층 전시장 사무실");
+    $("h2").append(" 1층전시장사무실");
 });
 $("#1층집").click(function () {
     $("h3").remove();
@@ -151,7 +151,7 @@ $("#베란다1").click(function () {
 });
 $("#3개의계단").click(function () {
     $("h3").remove();
-    $("h2").append(" 3개의 계단");
+    $("h2").append(" 3개의계단");
 });
 $("#주방문").click(function () {
     $("h3").remove();
@@ -207,7 +207,7 @@ $("#엘리베이터").click(function () {
 });
 $("#9층기숙사").click(function () {
     $("h3").remove();
-    $("h2").append(" 9층 기숙사");
+    $("h2").append(" 9층기숙사");
 });
 $("#3인실").click(function () {
     $("h3").remove();
@@ -215,7 +215,7 @@ $("#3인실").click(function () {
 });
 $("#2층침대").click(function () {
     $("h3").remove();
-    $("h2").append(" 2층 침대");
+    $("h2").append(" 2층침대");
 });
 $("#기숙사책상").click(function () {
     $("h3").remove();
@@ -227,7 +227,7 @@ $("#좁은복도").click(function () {
 });
 $("#1층카페테리아와쌓인식빵그리고생크림").click(function () {
     $("h3").remove();
-    $("h2").append(" 1층 카페테리아와 쌓인 식빵 그리고 생크림");
+    $("h2").append(" 1층카페테리아와쌓인식빵그리고생크림");
 });
 $("#외출금지").click(function () {
     $("h3").remove();
@@ -291,11 +291,11 @@ $("#주방방").click(function () {
 });
 $("#5층집").click(function () {
     $("h3").remove();
-    $("h2").append(" 5층 집");
+    $("h2").append(" 5층집");
 });
 $("#1층집").click(function () {
     $("h3").remove();
-    $("h2").append(" 1층 집");
+    $("h2").append(" 1층집");
 });
 $("#시골").click(function () {
     $("h3").remove();
@@ -355,11 +355,11 @@ $("#수돗가").click(function () {
 });
 $("#3층집4층옥상").click(function () {
     $("h3").remove();
-    $("h2").append(" 3층 집 4층 옥상");
+    $("h2").append(" 3층집4층옥상");
 });
 $("#1층상가").click(function () {
     $("h3").remove();
-    $("h2").append(" 1층 상가");
+    $("h2").append(" 1층상가");
 });
 $("#흰색벽지흰색천정").click(function () {
     $("h3").remove();
