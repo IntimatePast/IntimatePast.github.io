@@ -7,18 +7,18 @@ function getRandomNumber(min, max) {
 
 function setup() {
 
-  var contentDiv = $("#SizeChartModal");
+  var contentDiv = $(".ebcf_modal-content");
   var contentWidth = contentDiv.width();
   var contentHeight = contentDiv.height();
 
   $(".item").each(function () {
     var $image = $(this);
-    var width = $image.outerWidth();
-    var height = $image.outerHeight();
-    var top = getRandomNumber(0, contentWidth - height);
-    var left = getRandomNumber(0, contentHeight - width);
+    var width = $image.innerWidth();
+    var height = $image.innerHeight();
+    var top = getRandomNumber(0, contentWidth * 2 - height);
+    var left = getRandomNumber(0, contentHeight / 3 - width);
 
-    $(this).css({ top: top, left: left, position: 'absolute' });
+    $(this).css({ top: top, left: left, position: 'absolute'});
   });
   // 이미지를 랜덤으로 캔버스에 불러오는 코드
 
